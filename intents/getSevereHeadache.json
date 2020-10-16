@@ -1,0 +1,65 @@
+{
+  "id": "4cd0ef10-8875-4eb4-b056-814059b18c9c",
+  "name": "getSevereHeadache",
+  "auto": true,
+  "contexts": [
+    "getHeadache"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "getMigraine",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "getSevereHeadacheCure",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "getHeadache",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3742f3cd-4f75-4bb0-8e13-0284f15c1b66",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "It is a chronic condition. Please visit the nearest hospital for consultation. It might be migraine.",
+            "It is a chronic condition but do not panic. Visit a doctor as soon as possible It might be migraine."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

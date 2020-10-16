@@ -1,0 +1,47 @@
+{
+  "id": "e69f6023-6d75-4f59-85c4-d9ac3a2bcbd3",
+  "name": "getThroatPain",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3d110c84-0dea-48b4-a27a-7981f9e33d95",
+          "required": false,
+          "dataType": "@feelings",
+          "name": "feelings",
+          "value": "$feelings",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Take a dyclonine tablet. Drink lots of lukewarm water. Consult a doctor if not feeling unwell",
+            "Drink lots of lukewarm water. Take a dyclonine tablet. Consult a doctor if not feeling unwell"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

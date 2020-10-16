@@ -1,0 +1,45 @@
+{
+  "id": "d0260d1c-da9f-4dbe-ac8c-be6d1db230b3",
+  "name": "getStomachAche",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "getSevereStomachAche",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "getCrampStomachAche",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Is it a cramp like ache or a severe one?",
+            "Does it feel like a severe ache or a cramp?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

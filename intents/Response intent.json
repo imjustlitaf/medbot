@@ -1,0 +1,89 @@
+{
+  "id": "81a4ccc6-c219-42e2-8f85-a4c454655306",
+  "name": "Response intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "affectedContexts": [
+        {
+          "name": "I",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "am",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "not",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "feeling",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "well",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0ea67dc1-db5f-4306-9ee5-ebd58bc5f9b4",
+          "required": false,
+          "dataType": "@feelings",
+          "name": "feelings",
+          "value": "$feelings",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "d051f7a6-d22b-49af-903d-55b38e1edcea",
+          "required": false,
+          "dataType": "@negativeFeelings",
+          "name": "negativefeelings",
+          "value": "$negativefeelings",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Tell me what happenned",
+            "What happened",
+            "Tell me how are you feeling",
+            "Tell me your problem",
+            "What is the issue",
+            "Tell me in detail"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
